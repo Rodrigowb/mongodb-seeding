@@ -1,7 +1,7 @@
 // Import mongoose
 let mongoose = require("mongoose");
 
-// Ser a mongoose schema
+// Set a mongoose schema
 const countrySchema = new mongoose.Schema({
   name: String,
   capital: Array,
