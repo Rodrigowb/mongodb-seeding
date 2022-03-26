@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "download": "node --experimental-fetch download.js",
+    "seed": "node --experimental-fetch seed.js",
+    "country": "node --experimental-fetch Country.js",
+    "connect": "node --experimental-fetch connect.js"
+  },
+  "dependencies": {
+    "node": "^17.7.1",
+    "node-fetch": "^3.2.3"
+  }
+}
